@@ -1,0 +1,15 @@
+# GET /api HTTP/1.1
+# host: localhost:3000
+
+# POST / HTTP/1.1
+# host: localhost:3000
+# Content-Type: application/json
+
+# {
+#     "nombre": "Yisus",
+#     "edad": 25
+# }
+
+
+# GET /api HTTP/1.1
+# host: www.google.com

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acordeon</title>
+
+    <style>
+
+        .acordeon{
+            width: 30%;
+            margin: 17% auto;
+        }
+
+        .acordeon .item{
+            display: block;
+        }
+
+        .acordeon .item .header button{
+            display: block;
+            width: 100%;
+            padding: 5%;
+        }
+
+        .acordeon .item .content{
+            transition: height 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+            overflow: hidden;
+            height: 0;
+        }
+
+        .acordeon .item .content.show{
+            height: 150px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="acordeon">
+        <div class="item">
+            <div class="header"><button>PINCHE MENÚ</button></div>
+            <div class="content">
+                AY AY AYYYYYY!
+            </div>
+        </div>
+        <div class="item">
+            <div class="header"><button>PINCHE MENÚ</button></div>
+            <div class="content">
+                AY AY AYYYYYY!
+            </div>
+        </div>
+        <div class="item">
+            <div class="header"><button>PINCHE MENÚ</button></div>
+            <div class="content">
+                AY AY AYYYYYY!
+            </div>
+        </div>
+        <div class="item">
+            <div class="header"><button>PINCHE MENÚ</button></div>
+            <div class="content">
+                AY AY AYYYYYY!
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+
+    <style>
+        #slider-container{
+            width: auto;
+        }
+
+        #slider-container #buttons-container{
+            text-align: center;
+        }
+
+        .item{
+            display: none;            
+        }
+
+        .item img{
+            max-width: 300px;
+        }
+
+        #slider-container .item-active{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="slider-container">
+
+        <div id="buttons container">
+            <button id="bPrev">Atras</button>
+            <button id="bNext">Siguiente</button>
+        </div>
+
+        <div id="slider-items">
+            <div class="item">
+                <img src="img/3799-javascript.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/typescript.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/java.svg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
